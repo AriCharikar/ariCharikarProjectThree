@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Juno College Bootcamp Project Three by Ari Charikar</title>
 </head>
-<body>
+<body class="wrapper">
     <header>
         <div class="wrapper">
             <div class="introSectionText"> 
@@ -23,54 +23,51 @@
     </header>
 
     <main>
-        <div id="game">
-            <form class="qContainer" id="q1">
-                <h2>what is 1+1</h2>
-                <ul>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                </ul>
-                <button id="subButtonOne">Submit</button>
-            </form>
+        <div class="gameContainer">
+                <div id="qContainer1" class="hide">
+                <div class="question">Question?</div>
+                </div>
+               <div class="btnGrid">
+                <button class="btn">Answer 1</button>
+                <button class="btnCorrect">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+               </div>
 
-            <form class="qContainer" id="q2">
-                <h2>what sfsfsofs</h2>
-                <ul>
-                    <li>lorem</li>
-                    <li>sfs</li>
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                </ul>
-                <button id="subButtonTwo">Submit</button>
-            </form>
+               <div id="qContainer2" class="hide">
+                <div class="question">Question2?</div>
+                </div>
+               <div class="btnGrid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btnCorrect">Answer 3</button>
+                <button class="btn">Answer 4</button>
+               </div>
 
-            <form class="qContainer" id="q3">
-                <h2>what is 1+1</h2>
-                <ul>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                </ul>
-                <button id="subButtonThree">Submit</button>
-            </form>
+               <div id="qContainer3" class="hide">
+                <div class="question">Question3?</div>
+                </div>
+               <div class="btnGrid">
+                <button class="btnCorrect">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+               </div>
 
-            <form class="qContainer" id="q4">
-                <h2>what is 1+1</h2>
-                <ul>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>lorem</li>
-                    <li>ipsum</li>
-                </ul>
-                <button id="subButtonFour">Submit</button>
-            </form>
+               <div id="qContainer4" class="hide">
+                <div class="question">Question4?</div>
+                </div>
+               <div class="btnGrid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btnCorrect">Answer 4</button>
+               </div>
+            
+            <button class="startBtn">Start</button>
         </div>
-        <button>Submit</button>
+        <h2 class="winMsg">You Win!</h2>
         <div id="results">
-            <h1>Sup</h1>
         </div>
     </main>
     

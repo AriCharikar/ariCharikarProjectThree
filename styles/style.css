@@ -242,9 +242,11 @@ html {
   padding: 0;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 2rem;
 }
 
-body {
+header, main {
   background: -webkit-gradient(linear, left top, right top, from(#E684AE), color-stop(#79CBCA), to(#77A1D3));
   background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
 }
@@ -258,5 +260,44 @@ img {
   max-width: 1200px;
   width: 85%;
   margin: 0 auto;
+}
+
+footer {
+  background: #e22522;
+  background: radial-gradient(circle, #e22522 0%, #d16d1f 35%, #db7018 49%, #ff7c00 100%);
+}
+
+.gameContainer {
+  width: 50%;
+  max-width: 80%;
+  background-color: pink;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 8px 1px;
+          box-shadow: 0 0 8px 1px;
+  border-radius: 10px;
+}
+
+.btnGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 10px 10px;
+}
+
+.btn, .btnCorrect {
+  background-color: blue;
+  border-radius: 10px;
+  display: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.hide {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
