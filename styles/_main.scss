@@ -1,3 +1,42 @@
+h1 {
+    padding: 30px;
+    font-family: 'Red Rose', cursive;
+    font-size: 6vw;
+}
+
+p {
+    font-family: 'Red Rose', cursive;
+    font-size: 2vw;
+}
+
+button {
+    padding: 7px 14px;
+    border-radius: 10%;
+    background-color: orange;
+    font-family: 'Red Rose', cursive;
+    font-size: 1.8vw;
+}
+
+.question {
+    font-size: 2vw;
+    padding: 20px;
+    font-family: 'Sora', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    border: 4px dashed black;
+    border-radius: 5%;
+    background-color: #DC143C;
+}
+
+button:hover {
+    background-color: purple;
+    color: green;
+}
+
+header button {
+    margin: 30px 30px 0 30px;
+}
+
 .gameContainer {
     width: 50%;
     max-width: 80%;
@@ -16,7 +55,7 @@
 }
 
 .btn, .btnCorrect {
-    background-color: blue;
+    background-color: aquamarine;
     border-radius: 10px;
     display: none;
 }
@@ -27,4 +66,10 @@
 
 .hide {
     display: none;
+}
+
+.fas {
+    padding: 20px;
+    font-size: 5rem;
+    color: red;
 }

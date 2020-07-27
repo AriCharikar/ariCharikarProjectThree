@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     //Show questions!
     $('.startBtn').click(function(){
-        $('.qContainer').hide();
+        $('.qContainer, .startBtn').hide();
         $('.btn, .btnCorrect, .hide').show();
         return false;
     });

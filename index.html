@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Juno College Bootcamp Project Three by Ari Charikar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&family=Sora:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e06e3e6d2d.js" crossorigin="anonymous"></script>
 </head>
 <body class="wrapper">
     <header>
         <div class="wrapper">
             <div class="introSectionText"> 
-                <h1>Survival game</h1>
-                <p>Will you survive the deadly circumstances</p>
-                <button>Begin</button>
-                <!-- make the p appear after a button is pushed-->
+                <h1>Survival Game</h1>
+                <p>Will you be able follow the correct path out of danger?</p>
+                <a href="#gameContain"><button>TEST YOUR LUCK</button></a>
             </div>
             <div class="introSectionImg">
-                <img src="" alt="">
+                <i class="fas fa-arrow-circle-up"></i>
             </div>
            
         </div>
@@ -24,47 +25,47 @@
 
     <main>
         <div class="gameContainer">
+            <a id="gameContain"></a>
                 <div id="qContainer1" class="hide">
-                <div class="question">Question?</div>
+                <div class="question">You are walking in the woods, all of a sudden a bear appears! What do you do?</div>
                 </div>
                <div class="btnGrid">
-                <button class="btn">Answer 1</button>
-                <button class="btnCorrect">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <button class="btn">Pray to the bear gods</button>
+                <button class="btnCorrect">Ask the bear nicely to leave</button>
+                <button class="btn">Fight it</button>
+                <button class="btn">Contemplate life</button>
                </div>
 
                <div id="qContainer2" class="hide">
-                <div class="question">Question2?</div>
+                <div class="question">There is a loud noise coming from your basement, do you check it out?</div>
                 </div>
                <div class="btnGrid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btnCorrect">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <button class="btn">Noise? What n-n-noise?</button>
+                <button class="btn">That's the ghost living down there</button>
+                <button class="btnCorrect">Run from your home and never return</button>
+                <button class="btn">Ignore everything and sleep</button>
                </div>
 
                <div id="qContainer3" class="hide">
-                <div class="question">Question3?</div>
+                <div class="question">You are in actual danger, but are really tired, you decide:</div>
                 </div>
                <div class="btnGrid">
-                <button class="btnCorrect">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <button class="btnCorrect">To sleep with one eye open</button>
+                <button class="btn">That living isn't worth the hassle</button>
+                <button class="btn">Life is too short to worry about danger</button>
+                <button class="btn">Stay up all night in paranoia and fear</button>
                </div>
 
                <div id="qContainer4" class="hide">
-                <div class="question">Question4?</div>
+                <div class="question">You save a cat from a tree, in the process you fall. To slow your fall, you decide to:</div>
                 </div>
                <div class="btnGrid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btnCorrect">Answer 4</button>
+                <button class="btn">Grab a branch on the way down</button>
+                <button class="btn">Hope for the best</button>
+                <button class="btn">Sleep</button>
+                <button class="btnCorrect">Use your superpower to fly</button>
                </div>
-            
-            <button class="startBtn">Start</button>
+            <button class="startBtn">START</button>
         </div>
         <h2 class="winMsg">You Win!</h2>
         <div id="results">
