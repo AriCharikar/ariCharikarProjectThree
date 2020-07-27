@@ -14,13 +14,12 @@ $(document).ready(function() {
     });
 
     $('.btnCorrect').click(function(){
+        $(this).css('background-color', 'yellow');
         score = score + 1;
+        if (score === totalQuestions) {
+            $('.winMsg').show();
+        }
     });
-
-    if (point === totalQuestions) {
-        $('.winMsg').show();
-    };
-
 
 
     

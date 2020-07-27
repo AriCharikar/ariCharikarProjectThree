@@ -267,6 +267,10 @@ footer {
   background: radial-gradient(circle, #e22522 0%, #d16d1f 35%, #db7018 49%, #ff7c00 100%);
 }
 
+h1 {
+  font-size: 4rem;
+}
+
 .gameContainer {
   width: 50%;
   max-width: 80%;
