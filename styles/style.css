@@ -346,6 +346,17 @@ header button {
   color: red;
 }
 
+.winMsg {
+  background-color: red;
+  color: aquamarine;
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 8%;
+  -webkit-box-shadow: 0 0 8px 1px;
+          box-shadow: 0 0 8px 1px;
+}
+
 @media (max-width: 600px) {
   button {
     padding: 3px 7px;
